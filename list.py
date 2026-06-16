@@ -22,3 +22,12 @@ data_list=list(data_range)
 print(f"data_range:\n{data_list}")
 
 #membuat list menggunakan for
+list_for = [i for i in range(0,10) if i%2 ==0]
+print(f"data range pake for genap :\n{list_for}")
+
+# membuat list menggunakan for
+list_for = [i for i in range(0,10) if i%2 !=0]
+print(f"data range pake for ganjil :\n{list_for}")
+
+hasil = 10%3
+print(hasil)
